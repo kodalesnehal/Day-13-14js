@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body onload="info()">
+        <h2 id="wh"></h2>
+        <script>
+            function info(){
+            var width = screen.width;
+            var height = screen.height;
+            document.getElementById("wh").innerHTML = "width = "+width+" height = "+height;
+           }
+        </script>
+    </body>
+</html>
